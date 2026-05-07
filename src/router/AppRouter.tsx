@@ -7,6 +7,7 @@ import NotFound from '@/pages/NotFound/NotFound';
 import StarWars from '@/layouts/MainLayout/StarWars/StarWars';
 import Verstka from '@/pages/Verstka/Verstka';
 import Shifrovka from '@/pages/Shifrovka/Shifrovka';
+import PsiTest from '@/pages/PsiTest/PsiTest';
 
 
 const AppRouter = () => {
@@ -20,6 +21,7 @@ const AppRouter = () => {
             <Route index element={<Verstka />} />
         </Route>
         <Route path="shifrovka" element={<Shifrovka />} />
+        <Route path="/psitest" element={<PsiTest />} />
     </Routes>
 };
 
