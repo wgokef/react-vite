@@ -47,7 +47,7 @@ const [inputText, setInputText] = useState('');
 
   return (
     <div>
-       <h1>Шифрование</h1>
+        <h1>Шифрование</h1>
         <p>Введите текст для шифрования</p>
 
         <input placeholder="Введите текст или числа" 
