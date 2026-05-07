@@ -17,7 +17,7 @@ const PsiTest = () => {
         </p>
       ))}
       <button onClick={addPlus}>да</button>
-      <button> нет</button>
+      <button onClick={() => setMinus(minus + 1)}> нет</button>
       plus:{plus}
       minus:{minus}
     </div>
